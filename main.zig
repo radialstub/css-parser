@@ -14,6 +14,7 @@ pub fn main() !void {
     while (args.next(allocator)) |arg_or_err| {
         const arg = arg_or_err catch {
             std.debug.print("Could not parse arguments.\n", .{});
+            std.debug.print("Could not parse arguments.\n", .{});
         };
     }
 }
