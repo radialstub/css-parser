@@ -1,4 +1,4 @@
 # BUILD
-'''sh
+```sh
 zig build run
-'''
+```
